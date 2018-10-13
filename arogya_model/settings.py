@@ -25,7 +25,7 @@ SECRET_KEY = 'ez&ijd^6ly@5nwd=yugadl-&^*6z=bxj3)xdt5gtcd1k801vg8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://arogya-food-scanner.herokuapp.com/']
+ALLOWED_HOSTS = ['food-scanner.herokuapp.com']
 
 
 # Application definition
