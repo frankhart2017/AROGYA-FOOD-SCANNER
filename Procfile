@@ -1,1 +1,1 @@
-web: gunicorn arogya_model_app.wsgi --log-file -
+web: gunicorn arogya_model.wsgi --log-file -
