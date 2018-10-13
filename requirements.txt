@@ -1,8 +1,5 @@
 absl-py==0.4.0
 alabaster==0.7.10
-anaconda-client==1.6.14
-anaconda-navigator==1.8.7
-anaconda-project==0.8.2
 appnope==0.1.0
 appscript==1.0.1
 asn1crypto==0.24.0
@@ -15,7 +12,6 @@ awscli==1.16.29
 Babel==2.5.3
 backcall==0.1.0
 backports.shutil-get-terminal-size==1.0.0
-beautifulsoup4==4.6.0
 bitarray==0.8.1
 bkcharts==0.2
 blaze==0.11.3
