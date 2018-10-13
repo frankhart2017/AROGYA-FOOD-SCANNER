@@ -22,7 +22,7 @@ def predict(img_path):
     loaded_model_json = f.read()
     f.close()
     model = model_from_json(loaded_model_json)
-    model.load_weights("weights.h5")
+    model.load_weights(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'static/weights.h5'))
     vgg19_model = VGG19(weights='imagenet', include_top=False)
     n = random.randint(10000, 20000)
     file = str(n) + ".jpeg"
